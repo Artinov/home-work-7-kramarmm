@@ -1,0 +1,187 @@
+@import url('../vendor/fonts/OpenSans-Bold.ttf')
+@import 'mobile'
+@import 'ipad'
+
+$myFont: 'Open Sans'
+$navColor: #2C3E50
+$whiteColor: #FEFEFE
+$green-blockColor: #18BC9C
+$greyColor: #333333
+$placeholderColor: #A39CAB
+
+
+.uppercase
+	text-transform: uppercase
+	font-weight: 900
+
+body
+	text-align: center
+	font-family: $myFont
+	overflow-x: hidden
+	.hvr-underline-from-left
+		&:before
+			background: $whiteColor
+	nav
+		@extend .uppercase
+		font-family: $myFont
+		background-color: $navColor !important
+		height: 90px
+		border-width: 0 !important
+		.container
+			a
+				color: $whiteColor
+				float: right
+				padding-top: 35px
+				margin: 0 10px
+				height: 90px
+				&:hover
+					text-decoration: none
+			a:first-child
+				font-size: 1.5em
+				float: left
+				padding-top: 28px
+				height: 90px
+	.jumbotron
+		height: 700px
+		background-color: $green-blockColor
+		.download
+			margin: 100px 0
+			font-size: 1.5em
+			padding: 10px 20px
+			border-radius: 10px
+			border: 2px solid $whiteColor
+			background-color: $green-blockColor
+			color: $whiteColor
+			&:focus
+				background-color: $whiteColor
+				color: $green-blockColor
+				border-color: $whiteColor
+				box-shadow: none
+		.container
+			text-align: center
+			img
+				display: block
+				margin: 100px auto 0 auto
+			h1
+				@extend .uppercase
+				color: $whiteColor
+				margin-left: -35px
+			.white-star
+				margin: 30px 0
+				rect
+					fill: $whiteColor
+			i 
+				color: $whiteColor
+				position: relative
+				top: -20px
+				right: 139px
+			p 
+				color: $whiteColor
+				font-weight: 400
+				font-size: 2em
+			.paragraph
+				color: $whiteColor
+				text-align: left
+				font-size: 1.4em
+				// margin: 60px 0 20px 0	
+	.row
+		.container 
+			h1 
+				@extend .uppercase
+				color: $greyColor
+				font-size: 2.7em
+				margin-left: -15px
+			.portfolio-star
+				margin: 20px 0
+				.grey-star
+					rect
+						fill: $greyColor
+				i 
+					color: $greyColor
+					position: relative
+					top: 6px
+					right: 132px
+		.six-images
+			margin-bottom: 120px
+			a
+				img
+					margin: 15px 0
+	.input
+		padding: 0 6%
+		input
+			margin: 0 auto
+			height: 80px
+			font-size: 1.7em
+			font-weight: 500
+			color: $placeholderColor
+			border-width: 1px 0
+			border-color: #F2F2F2
+			border-radius: 0
+			outline: 0
+			box-shadow: none
+			&:focus
+				border-color: $green-blockColor
+				box-shadow: none !important
+		textarea
+			@extend input
+			height: 130px
+			padding-top: 15px
+		.btn-success
+			background-color: $green-blockColor
+			font-weight: 500
+			margin: 40px 0
+			float: left
+			font-size: 1.5em
+			&:active
+				background-color: $whiteColor
+				color: $green-blockColor
+				border: 1px solid $green-blockColor
+				outline: none
+				box-shadow: none
+			&:focus
+				outline: none
+				box-shadow: none
+	.footer
+		background-color: $navColor
+		height: 300px
+		margin-bottom: 0
+		h2
+			@extend .uppercase
+			color: $whiteColor
+			margin-bottom: 50px
+		.around
+			margin-left: -0px
+		p
+			color: $whiteColor
+			margin-bottom: 0
+		i
+			color: $whiteColor
+		.icons
+			margin-left: 0
+			i
+				border: 2px solid $whiteColor
+				display: inline-block
+				border-radius: 50%
+				height: 50px
+				width: 50px
+				margin: 0 20px
+			.fa-facebook
+				padding: 10px 6px 0 0
+			.fa-twitter
+				padding: 10px 1px 0 0
+			.fa-google-plus
+				padding: 12px 0px 0 2px
+				font-size: 1.7em
+			.fa-behance
+				padding: 12px 0px 0 1px
+				font-size: 1.7em
+			.fa-vk
+				padding: 9px 3px 0 0px
+	span
+		color: $green-blockColor
+	.copyright
+		background-color: #233140
+		height: 45px 
+		padding: 20px 0 40px 0
+		margin-bottom: 0
+		color: $whiteColor

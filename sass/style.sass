@@ -1,14 +1,13 @@
-@import url('../vendor/fonts/OpenSans-Bold.ttf')
-@import 'mobile'
-@import 'ipad'
-
-$myFont: 'Open Sans'
+$myFont: 'Open Sans', Arial, Verdana, sans-serif;
 $navColor: #2C3E50
-$whiteColor: #FEFEFE
-$green-blockColor: #18BC9C
-$greyColor: #333333
+$textColor: #FEFEFE
+$additionalColor: #18BC9C
+$primaryColor: #333333
 $placeholderColor: #A39CAB
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans')
+@import 'mobile'
+@import 'ipad'
 
 .uppercase
 	text-transform: uppercase
@@ -20,7 +19,7 @@ body
 	overflow-x: hidden
 	.hvr-underline-from-left
 		&:before
-			background: $whiteColor
+			background: $textColor
 	nav
 		@extend .uppercase
 		font-family: $myFont
@@ -29,7 +28,7 @@ body
 		border-width: 0 !important
 		.container
 			a
-				color: $whiteColor
+				color: $textColor
 				float: right
 				padding-top: 35px
 				margin: 0 10px
@@ -43,19 +42,19 @@ body
 				height: 90px
 	.jumbotron
 		height: 700px
-		background-color: $green-blockColor
+		background-color: $additionalColor
 		.download
 			margin: 100px 0
 			font-size: 1.5em
 			padding: 10px 20px
 			border-radius: 10px
-			border: 2px solid $whiteColor
-			background-color: $green-blockColor
-			color: $whiteColor
+			border: 2px solid $textColor
+			background-color: $additionalColor
+			color: $textColor
 			&:focus
-				background-color: $whiteColor
-				color: $green-blockColor
-				border-color: $whiteColor
+				background-color: $textColor
+				color: $additionalColor
+				border-color: $textColor
 				box-shadow: none
 		.container
 			text-align: center
@@ -64,23 +63,25 @@ body
 				margin: 100px auto 0 auto
 			h1
 				@extend .uppercase
-				color: $whiteColor
+				color: $textColor
 				margin-left: -35px
 			.white-star
 				margin: 30px 0
 				rect
-					fill: $whiteColor
+					fill: $textColor
+			.about-star
+				margin-left: -3px
 			i 
-				color: $whiteColor
+				color: $textColor
 				position: relative
 				top: -20px
-				right: 139px
+				right: 143px
 			p 
-				color: $whiteColor
+				color: $textColor
 				font-weight: 400
 				font-size: 2em
 			.paragraph
-				color: $whiteColor
+				color: $textColor
 				text-align: left
 				font-size: 1.4em
 				// margin: 60px 0 20px 0	
@@ -88,19 +89,21 @@ body
 		.container 
 			h1 
 				@extend .uppercase
-				color: $greyColor
+				color: $primaryColor
 				font-size: 2.7em
-				margin-left: -15px
+				margin-left: -22px
 			.portfolio-star
 				margin: 20px 0
 				.grey-star
+					margin-left: -18px
 					rect
-						fill: $greyColor
+						fill: $primaryColor
+						margin-left: 20px
 				i 
-					color: $greyColor
+					color: $primaryColor
 					position: relative
 					top: 6px
-					right: 132px
+					right: 138px
 		.six-images
 			margin-bottom: 120px
 			a
@@ -108,6 +111,7 @@ body
 					margin: 15px 0
 	.input
 		padding: 0 6%
+		width: 70%
 		input
 			margin: 0 auto
 			height: 80px
@@ -120,22 +124,22 @@ body
 			outline: 0
 			box-shadow: none
 			&:focus
-				border-color: $green-blockColor
+				border-color: $additionalColor
 				box-shadow: none !important
 		textarea
 			@extend input
 			height: 130px
 			padding-top: 15px
 		.btn-success
-			background-color: $green-blockColor
+			background-color: $additionalColor
 			font-weight: 500
 			margin: 40px 0
 			float: left
 			font-size: 1.5em
 			&:active
-				background-color: $whiteColor
-				color: $green-blockColor
-				border: 1px solid $green-blockColor
+				background-color: $textColor
+				color: $additionalColor
+				border: 1px solid $additionalColor
 				outline: none
 				box-shadow: none
 			&:focus
@@ -147,24 +151,24 @@ body
 		margin-bottom: 0
 		h2
 			@extend .uppercase
-			color: $whiteColor
+			color: $textColor
 			margin-bottom: 50px
 		.around
-			margin-left: -0px
+			margin-left: 20px
 		p
-			color: $whiteColor
+			color: $textColor
 			margin-bottom: 0
 		i
-			color: $whiteColor
+			color: $textColor
 		.icons
 			margin-left: 0
 			i
-				border: 2px solid $whiteColor
+				border: 2px solid $textColor
 				display: inline-block
 				border-radius: 50%
 				height: 50px
 				width: 50px
-				margin: 0 20px
+				margin: 0 7px
 			.fa-facebook
 				padding: 10px 6px 0 0
 			.fa-twitter
@@ -178,10 +182,10 @@ body
 			.fa-vk
 				padding: 9px 3px 0 0px
 	span
-		color: $green-blockColor
+		color: $additionalColor
 	.copyright
 		background-color: #233140
 		height: 45px 
 		padding: 20px 0 40px 0
 		margin-bottom: 0
-		color: $whiteColor
+		color: $textColor

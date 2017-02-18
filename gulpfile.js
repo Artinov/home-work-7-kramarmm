@@ -1,4 +1,4 @@
-var gulp            = require('gulp');
+var gulp            = require('gulp'),
 	gulpLoadPlugins = require('gulp-load-plugins'),
 	plugins         = gulpLoadPlugins(),
 	browserSync    = require('browser-sync');

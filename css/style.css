@@ -1,193 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-  .container {
-    margin: 0 auto;
-    width: 100%;
-  }
-  body {
-    margin: 0 auto !important;
-  }
-  body .navbar-fixed-top {
-    position: static !important;
-  }
-  body nav {
-    height: 400px !important;
-    margin: 0 !important;
-  }
-  body nav .container a {
-    font-size: 3em;
-    float: none !important;
-    display: block;
-    background-color: #2C3E50;
-  }
-  body nav .container a:first-child {
-    font-size: 3em !important;
-    float: none !important;
-  }
-  body .jumbotron {
-    height: 800px !important;
-  }
-  body .jumbotron .container h1 {
-    font-size: 4.5em !important;
-  }
-  body .jumbotron .container img {
-    width: 400px;
-    margin: -20px auto 0 auto !important;
-  }
-  body .jumbotron .container p {
-    font-size: 4em !important;
-  }
-  body .row .six-images h1 {
-    font-size: 4.5em !important;
-  }
-  body .about-block {
-    height: 1280px !important;
-  }
-  body .about-block .container .about {
-    font-size: 5.5em !important;
-  }
-  body .about-block .container .paragraph {
-    text-align: left !important;
-    width: 100%;
-    margin: 20px 0 20px 10px;
-    font-size: 2.3em !important;
-  }
-  body .about-block .download {
-    font-size: 3em !important;
-    padding: 20px 40px !important;
-  }
-  body .contact {
-    font-size: 4.5em !important;
-  }
-  body .input input, body .input textarea {
-    height: 120px !important;
-    font-size: 3em !important;
-  }
-  body .input textarea {
-    height: 130px;
-    padding-top: 15px;
-  }
-  body .input .btn-success {
-    margin: 40px 0;
-    padding: 10px 20px;
-    font-size: 3em !important;
-  }
-  body .footer {
-    height: 1300px !important;
-    margin-bottom: 0;
-  }
-  body .footer div {
-    margin: 50px 0;
-  }
-  body .footer div h2 {
-    font-size: 4.5em !important;
-    margin-bottom: 50px;
-  }
-  body .footer div .around {
-    margin-left: 15px !important;
-  }
-  body .footer div p {
-    font-size: 3em !important;
-  }
-  body .footer div .icons {
-    font-size: 3em !important;
-  }
-  body .footer div .icons i {
-    height: 120px !important;
-    width: 120px !important;
-    margin: 0 30px !important;
-  }
-  body .footer div .icons .fa-facebook {
-    padding: 19px 6px 0 0 !important;
-  }
-  body .footer div .icons .fa-twitter {
-    padding: 20px 0px 0 1px !important;
-  }
-  body .footer div .icons .fa-google-plus {
-    padding: 20px 0px 0 2px !important;
-  }
-  body .footer div .icons .fa-behance {
-    padding: 20px 0px 0 1px !important;
-  }
-  body .footer div .icons .fa-vk {
-    padding: 14px 3px 0 0px !important;
-  }
-  body .copyright {
-    height: 60px !important;
-    padding: 30px 0 70px 0 !important;
-    margin-bottom: 0;
-    margin-top: -1px;
-    font-size: 2em !important;
-  }
-}
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  body .navbar-fixed-top {
-    position: static !important;
-  }
-  body nav {
-    height: 400px !important;
-    margin: 0 !important;
-  }
-  body nav .container a {
-    font-size: 3em;
-    float: none !important;
-    display: block;
-    background-color: #2C3E50;
-  }
-  body nav .container a:first-child {
-    font-size: 3em !important;
-    float: none !important;
-  }
-  body .footer {
-    height: 1300px !important;
-    margin-bottom: 0;
-  }
-  body .footer div {
-    margin: 50px 0;
-  }
-  body .footer div h2 {
-    font-size: 3.5em !important;
-    margin-bottom: 40px;
-  }
-  body .footer div .around {
-    margin-left: 15px !important;
-  }
-  body .footer div p {
-    font-size: 3em !important;
-  }
-  body .footer div .icons {
-    font-size: 3em !important;
-  }
-  body .footer div .icons i {
-    height: 120px !important;
-    width: 120px !important;
-    margin: 0 30px !important;
-  }
-  body .footer div .icons .fa-facebook {
-    padding: 19px 6px 0 0 !important;
-  }
-  body .footer div .icons .fa-twitter {
-    padding: 20px 0px 0 1px !important;
-  }
-  body .footer div .icons .fa-google-plus {
-    padding: 20px 0px 0 2px !important;
-  }
-  body .footer div .icons .fa-behance {
-    padding: 20px 0px 0 1px !important;
-  }
-  body .footer div .icons .fa-vk {
-    padding: 14px 3px 0 0px !important;
-  }
-  body .copyright {
-    height: 60px !important;
-    padding: 30px 0 70px 0 !important;
-    margin-bottom: 0;
-    margin-top: -1px;
-    font-size: 2em !important;
-  }
-}
-
 .uppercase, body nav, body .jumbotron .container h1, body .row .container h1, body .footer h2 {
   text-transform: uppercase;
   font-weight: 900;
@@ -456,4 +267,193 @@ body .copyright {
   padding: 20px 0 40px 0;
   margin-bottom: 0;
   color: #FEFEFE;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .container {
+    margin: 0 auto;
+    width: 100%;
+  }
+  body {
+    margin: 0 auto;
+  }
+  body .navbar-fixed-top {
+    position: static;
+  }
+  body nav {
+    height: 400px;
+    margin: 0 !important;
+  }
+  body nav .container a {
+    font-size: 3em;
+    float: none;
+    display: block;
+    background-color: #2C3E50;
+  }
+  body nav .container a:first-child {
+    font-size: 3em;
+    float: none;
+  }
+  body .jumbotron {
+    height: 800px;
+  }
+  body .jumbotron .container h1 {
+    font-size: 4.5em;
+  }
+  body .jumbotron .container img {
+    width: 400px;
+    margin: -20px auto 0 auto;
+  }
+  body .jumbotron .container p {
+    font-size: 4em;
+  }
+  body .row .six-images h1 {
+    font-size: 4.5em;
+  }
+  body .about-block {
+    height: 1280px;
+  }
+  body .about-block .container .about {
+    font-size: 5.5em;
+  }
+  body .about-block .container .paragraph {
+    text-align: left;
+    width: 100%;
+    margin: 20px 0 20px 10px;
+    font-size: 2.3em;
+  }
+  body .about-block .download {
+    font-size: 3em;
+    padding: 20px 40px;
+  }
+  body .contact {
+    font-size: 4.5em;
+  }
+  body .input input, body .input textarea {
+    height: 120px;
+    font-size: 3em;
+  }
+  body .input textarea {
+    height: 130px;
+    padding-top: 15px;
+  }
+  body .input .btn-success {
+    margin: 40px 0;
+    padding: 10px 20px;
+    font-size: 3em;
+  }
+  body .footer {
+    height: 1300px;
+    margin-bottom: 0;
+  }
+  body .footer div {
+    margin: 50px 0;
+  }
+  body .footer div h2 {
+    font-size: 4.5em;
+    margin-bottom: 50px;
+  }
+  body .footer div .around {
+    margin-left: 15px;
+  }
+  body .footer div p {
+    font-size: 3em;
+  }
+  body .footer div .icons {
+    font-size: 3em;
+  }
+  body .footer div .icons i {
+    height: 120px;
+    width: 120px;
+    margin: 0 30px;
+  }
+  body .footer div .icons .fa-facebook {
+    padding: 19px 6px 0 0;
+  }
+  body .footer div .icons .fa-twitter {
+    padding: 20px 0px 0 1px;
+  }
+  body .footer div .icons .fa-google-plus {
+    padding: 20px 0px 0 2px;
+  }
+  body .footer div .icons .fa-behance {
+    padding: 20px 0px 0 1px;
+  }
+  body .footer div .icons .fa-vk {
+    padding: 14px 3px 0 0px;
+  }
+  body .copyright {
+    height: 60px;
+    padding: 30px 0 70px 0;
+    margin-bottom: 0;
+    margin-top: -1px;
+    font-size: 2em;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  body .navbar-fixed-top {
+    position: static;
+  }
+  body nav {
+    height: 400px;
+    margin: 0 !important;
+  }
+  body nav .container a {
+    font-size: 3em;
+    float: none;
+    display: block;
+    background-color: #2C3E50;
+  }
+  body nav .container a:first-child {
+    font-size: 3em;
+    float: none;
+  }
+  body .footer {
+    height: 1300px;
+    margin-bottom: 0;
+  }
+  body .footer div {
+    margin: 50px 0;
+  }
+  body .footer div h2 {
+    font-size: 3.5em;
+    margin-bottom: 40px;
+  }
+  body .footer div .around {
+    margin-left: 15px;
+  }
+  body .footer div p {
+    font-size: 3em;
+  }
+  body .footer div .icons {
+    font-size: 3em;
+  }
+  body .footer div .icons i {
+    height: 120px;
+    width: 120px;
+    margin: 0 30px;
+  }
+  body .footer div .icons .fa-facebook {
+    padding: 19px 6px 0 0;
+  }
+  body .footer div .icons .fa-twitter {
+    padding: 20px 0px 0 1px;
+  }
+  body .footer div .icons .fa-google-plus {
+    padding: 20px 0px 0 2px;
+  }
+  body .footer div .icons .fa-behance {
+    padding: 20px 0px 0 1px;
+  }
+  body .footer div .icons .fa-vk {
+    padding: 14px 3px 0 0px;
+  }
+  body .copyright {
+    height: 60px;
+    padding: 30px 0 70px 0;
+    margin-bottom: 0;
+    margin-top: -1px;
+    font-size: 2em;
+  }
 }

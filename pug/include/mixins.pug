@@ -1,0 +1,14 @@
+mixin styles(...files)
+	each file in files
+		link(rel="stylesheet" href=file)
+
+mixin scripts(...files)
+	each file in files
+		script(type='text/javascript' src=file)
+
+
+mixin image(href,...files)
+	each file in files
+		a(href=href)
+			img.col-xs-12.col-sm-6.col-md-4.col-lg-4.hvr-shrink(src=file)
+
